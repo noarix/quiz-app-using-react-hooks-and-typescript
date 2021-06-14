@@ -19,7 +19,115 @@ const MainContainer: FunctionComponent<{ initial?: Models.QuizResponse; }> = ({ 
 
   // useEffect is a React hook equivalent to React Lifecycle Method (RLM) componenDidMount() among other RLMs
   useEffect(() => {
-    fetchData();
+    // fetchData();
+    setQuizzes({
+      "response_code": 0,
+      "results": [{
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "There will be a sequel to Bloodborne.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "By the time of episode 6 Darth Vader is 70 years old!.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "There are Black Lightsabers in the original trilogy.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "A New Hope came out in 1977.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Darth Maul is a Zabrak!",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Purple is the rarest lightsaber color!",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "The actor that played Count Dooku is still alive!",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Luke has a Wife in Canon.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"] 
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Clone Wars is Canon.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"] 
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Ther always were only 2 Sith at once.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"] 
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Nobody before Anakin knew that Palpatine was secretly a Sith Lord.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"] 
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Palpatine killde his family when he was a child.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"] 
+      },
+      {
+        "category": "Entertainment: Television",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Anakin regreted becoming Vader.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"] 
+      }
+    ]
+    })
   }, []);
 
   const handleButtonClick = (): void => {
@@ -32,8 +140,8 @@ const MainContainer: FunctionComponent<{ initial?: Models.QuizResponse; }> = ({ 
         <>
           <h2>Welcome to the Trivia Challenge!</h2>
           <div className='StartEndCard'>
-            <h2>You will answer 10 of the most rando true or false questions</h2>
-            <p>Can you score 10/10?</p>
+            <h2>You will answer 13 of the most rando true or false questions</h2>
+            <p>Can you score 13/13?</p>
 
             <button type='submit' className='Button' onClick={() => handleButtonClick()}>Get Started!</button>
           </div>

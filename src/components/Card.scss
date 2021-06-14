@@ -4,18 +4,18 @@
   width: 100%;
   height: 280px;
   place-content: center;
-  border: rgb(186, 185, 185) 1px solid;
-  color: rgb(70, 70, 70);
+  border: rgb(179, 32, 32) 1px solid;
+  color: rgb(136, 130, 130);
   padding: 40px 60px;
   font-size: 22px;
-  background-color:white;
+  background-color:rgb(10, 1, 1);
   border-radius: 8px;
 }
 
 .Badge {
   width: 130px;
-  background-color: #54E0C7;
-  color: white;
+  background-color: #122f8f;
+  color: rgb(202, 30, 30);
   padding: 20px;
   border-radius: 8px;
   font-size: 18px;
@@ -28,8 +28,8 @@
 
 .Button {
   width: 210px;
-  background-color: #e68918;
-  color: white;
+  background-color: #75470e;
+  color: rgb(165, 20, 20);
   padding: 20px;
   border-radius: 8px;
   font-size: 18px;
@@ -41,8 +41,8 @@
 }
 
 .Button:hover {
-  background-color: #fcae4e;
-  color: rgb(57, 56, 56);
+  background-color: #070606;
+  color: rgb(167, 23, 172);
   cursor: pointer;
 }
 
@@ -52,14 +52,14 @@ button.Badge {
 
 .Answer {
   padding-top: 25px;
-  color: #e68918;
+  color: #74450c;
   font-size: 24px;
   font-weight: 600;
   height: 35px;
 }
 
 .inputGroup {
-  background-color: #fff;
+  background-color: rgb(194, 35, 35);
   display: block;
   margin: 10px 0;
   position: relative;
@@ -70,7 +70,7 @@ button.Badge {
     width: 100%;
     display: block;
     text-align: left;
-    color: #3C454C;
+    color: #1c830e;
     cursor: pointer;
     position: relative;
     z-index: 2;
@@ -80,7 +80,7 @@ button.Badge {
       height: 10px;
       border-radius: 50%;
       content: '';
-      background-color: #5562eb;
+      background-color: #0e1ba8;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -94,8 +94,8 @@ button.Badge {
       width: 32px;
       height: 32px;
       content: '';
-      border: 2px solid #D1D7DC;
-      background-color: #fff;
+      border: 2px solid #0b5999;
+      background-color: rgb(148, 170, 25);
       background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
       background-repeat: no-repeat;
       background-position: 2px 3px;
@@ -112,10 +112,10 @@ button.Badge {
 }
 
 #label:hover {
-  background-color: #5562eb;
+  background-color: #19ac0c;
   transition: all 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
   z-index: 4;
-  color: white;
+  color: rgb(184, 125, 17);
   display: block;
   margin: 12px 0;
   position: relative;
@@ -134,7 +134,7 @@ button.Badge {
 }
 
 body {
-  background-color: #D1D7DC;
+  background-color: #31d111;
   font-family: 'Fira Sans', sans-serif;
 }
 
@@ -149,7 +149,7 @@ html {
 }
 
 code {
-  background-color: #9AA3AC;
+  background-color: #219db3;
   padding: 0 8px;
 }
 
@@ -190,12 +190,12 @@ input, input:hover, span {
   right: 30px;
   height: 32px;
   width: 32px;
-  background-color: #eee;
+  background-color: rgb(20, 3, 3);
   border-radius: 50%;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #54E0C7;
+  background-color: #22a507;
 }
 
 .checkmark:after {
@@ -214,5 +214,5 @@ input, input:hover, span {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: white;
+  background: rgb(180, 12, 12);
 }
